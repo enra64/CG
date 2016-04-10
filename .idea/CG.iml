@@ -84,6 +84,10 @@
       <sourceFolder url="file://$MODULE_DIR$/exercises/example_memory_fun/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercises/example_hello_world/hello_world.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercises/example_hello_world/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercises/custom_classes/vector3.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercises/custom_classes/animals.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercises/custom_classes/vector2.hpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/exercises/custom_classes/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercises/opengl/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercises/opengl/Math.hpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercises/opengl/RaytracerWindow.cpp" isTestSource="false" />

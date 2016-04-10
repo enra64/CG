@@ -1,4 +1,4 @@
-SET(sources src/glew.c include/GL/glew.h include/GL/wglew.h)
+SET(sources src/glew.c include/GL/glew.h include/GL/wglew.h ../../exercises/custom_classes/vector2.hpp ../../exercises/custom_classes/vector3.hpp)
 OPTION(GLEW_NO_GLU "Compile GLEW without glu" OFF)
 
 IF (MSVC)

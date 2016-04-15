@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/arne/Documents/Studium/Semester 4/CG/Task1/exercises/example_memory_fun/MemoryFun.cpp
+iostream
+-
+vector
+-
+chrono
+-
+

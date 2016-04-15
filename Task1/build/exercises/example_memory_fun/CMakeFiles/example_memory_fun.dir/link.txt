@@ -1,0 +1,1 @@
+/usr/bin/c++    -fopenmp    CMakeFiles/example_memory_fun.dir/MemoryFun.cpp.o  -o ../../example_memory_fun -rdynamic 

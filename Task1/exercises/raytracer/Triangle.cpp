@@ -56,7 +56,7 @@ Triangle::closestIntersectionModel(const Ray &ray, double maxLambda, RayIntersec
   if(w > Math::safetyEps())
   {
     Vec3d uvw(0, 0, 0);
-    std::cout << "lambda: " << w << std::endl;
+    //std::cout << "lambda: " << w << std::endl;
     intersection = RayIntersection(ray, shared_from_this(), w, vTest, uvw);
     return true;
   } 

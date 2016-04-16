@@ -38,6 +38,19 @@ Sphere::closestIntersectionModel(const Ray &ray, double maxLambda, RayIntersecti
   // distance to the sphere is greater than its radius
   if(distance > radius)
     return false;
+    
+  // two intersection points, find the earlier one
+  if(1.d - distance > Math::safetyEps()){
+    // basically pythagorean theorem:
+    // a: radius
+    // b: distance between sphere origin and the calculated point on ray
+    // c: distance between point on ray and sphere intersection
+    double b = (ray.pointOnRay(lambda) - origin).length();
+    double c = sqrt((radius*radius) - (b*b));
+    // subtract the distance from point on ray to intersection point
+    lambda -= c;
+  }
+    
   
   // lambda too small (intersection is behind ray)
   if (lambda<0)

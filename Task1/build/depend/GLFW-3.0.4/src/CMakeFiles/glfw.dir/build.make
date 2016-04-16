@@ -533,10 +533,16 @@ libglfw.so.3.0: depend/GLFW-3.0.4/src/CMakeFiles/glfw.dir/x11_unicode.c.o
 libglfw.so.3.0: depend/GLFW-3.0.4/src/CMakeFiles/glfw.dir/glx_context.c.o
 libglfw.so.3.0: depend/GLFW-3.0.4/src/CMakeFiles/glfw.dir/build.make
 libglfw.so.3.0: /usr/lib64/libX11.so
+libglfw.so.3.0: /usr/lib64/librt.so
 libglfw.so.3.0: /usr/lib64/libXrandr.so
 libglfw.so.3.0: /usr/lib64/libXi.so
 libglfw.so.3.0: /usr/lib64/libXxf86vm.so
 libglfw.so.3.0: /usr/lib64/librt.so
+libglfw.so.3.0: /usr/lib64/libm.so
+libglfw.so.3.0: /usr/lib64/libGL.so
+libglfw.so.3.0: /usr/lib64/libXrandr.so
+libglfw.so.3.0: /usr/lib64/libXi.so
+libglfw.so.3.0: /usr/lib64/libXxf86vm.so
 libglfw.so.3.0: /usr/lib64/libm.so
 libglfw.so.3.0: /usr/lib64/libGL.so
 libglfw.so.3.0: depend/GLFW-3.0.4/src/CMakeFiles/glfw.dir/link.txt

@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/example_hello_world/cmake_install.cmake")
   include("/home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/example_animals/cmake_install.cmake")
+  include("/home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/example_hello_world/cmake_install.cmake")
   include("/home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/example_memory_fun/cmake_install.cmake")
   include("/home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/opengl/cmake_install.cmake")
   include("/home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/raytracer/cmake_install.cmake")

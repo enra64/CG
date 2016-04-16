@@ -137,19 +137,6 @@ glew/fast:
 .PHONY : glew/fast
 
 #=============================================================================
-# Target rules for targets named example_hello_world
-
-# Build rule for target.
-example_hello_world: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 example_hello_world
-.PHONY : example_hello_world
-
-# fast build rule for target.
-example_hello_world/fast:
-	$(MAKE) -f exercises/example_hello_world/CMakeFiles/example_hello_world.dir/build.make exercises/example_hello_world/CMakeFiles/example_hello_world.dir/build
-.PHONY : example_hello_world/fast
-
-#=============================================================================
 # Target rules for targets named example_animals
 
 # Build rule for target.
@@ -161,6 +148,19 @@ example_animals: cmake_check_build_system
 example_animals/fast:
 	$(MAKE) -f exercises/example_animals/CMakeFiles/example_animals.dir/build.make exercises/example_animals/CMakeFiles/example_animals.dir/build
 .PHONY : example_animals/fast
+
+#=============================================================================
+# Target rules for targets named example_hello_world
+
+# Build rule for target.
+example_hello_world: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 example_hello_world
+.PHONY : example_hello_world
+
+# fast build rule for target.
+example_hello_world/fast:
+	$(MAKE) -f exercises/example_hello_world/CMakeFiles/example_hello_world.dir/build.make exercises/example_hello_world/CMakeFiles/example_hello_world.dir/build
+.PHONY : example_hello_world/fast
 
 #=============================================================================
 # Target rules for targets named example_memory_fun
@@ -237,8 +237,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... glfw"
 	@echo "... glew"
-	@echo "... example_hello_world"
 	@echo "... example_animals"
+	@echo "... example_hello_world"
 	@echo "... example_memory_fun"
 	@echo "... opengl"
 	@echo "... raytracer"

@@ -83,6 +83,13 @@ std::shared_ptr<rt::Scene> makeTask1Scene()
   std::shared_ptr<rt::Triangle> triangle = std::make_shared<rt::Triangle>(a,b,c);
   triangle->setMaterial(materialTriangle);
   scene->addRenderable(triangle);
+  
+  //rt::Vec3d a2(2,0,0);
+  //rt::Vec3d b2(5,2,0);
+  //rt::Vec3d c2(1,0,5);
+  //std::shared_ptr<rt::Triangle> triangle2 = std::make_shared<rt::Triangle>(a2,c2,b2);
+  //triangle2->setMaterial(materialTriangle);
+  //scene->addRenderable(triangle2);
 
   ///////////////////////////////////////////////////////////////////////////////////////////////
   // Here, you can verify your handwritten results from the theoretical exercise on intersections.

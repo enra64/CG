@@ -28,9 +28,10 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=0
-FILE_NAME_0=1188;C++;0;EUTF-8;0;1;0;%2Fhome%2Farne%2FDocuments%2FStudium%2FSemester%204%2FCG%2FTask1%2Fexercises%2Fraytracer%2FSphere.cpp;0;2
-FILE_NAME_1=1522;C++;0;EUTF-8;0;1;0;%2Fhome%2Farne%2FDocuments%2FStudium%2FSemester%204%2FCG%2FTask1%2Fexercises%2Fraytracer%2FTriangle.cpp;0;2
+current_page=1
+FILE_NAME_0=1369;C++;0;EUTF-8;0;1;0;%2Fhome%2Farne%2FDocuments%2FStudium%2FSemester%204%2FCG%2FTask1%2Fexercises%2Fraytracer%2FSphere.cpp;0;2
+FILE_NAME_1=1191;C++;0;EUTF-8;0;1;0;%2Fhome%2Farne%2FDocuments%2FStudium%2FSemester%204%2FCG%2FTask1%2Fexercises%2Fraytracer%2FTriangle.cpp;0;2
+FILE_NAME_2=4266;C++;0;EUTF-8;0;1;0;%2Fhome%2Farne%2FDocuments%2FStudium%2FSemester%204%2FCG%2FTask1%2Fexercises%2Fraytracer_task1%2Fraytracer_task1.cpp;0;2
 
 [VTE]
 last_dir=/home/arne

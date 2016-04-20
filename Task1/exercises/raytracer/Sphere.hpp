@@ -23,6 +23,13 @@ public:
   // Override this method to recompute the bounding box of this object.
   RAYTRACER_EXPORTS BoundingBox computeBoundingBox() const override;
 
+  /** \brief calculate distance between ray and point
+   *
+   * @param rayOfInterest The ray of interest
+   * @param pointOfInterest The point we are interested in
+   * @param lambda direction factor to reach the point on the ray nearest to the point of interest
+   * @param distance Distance between ray and point of interest
+   */
   void pointToRayDistance(const Ray &ray, const Vec3d* point, double* lambda, double* distance) const;
 };
 } //namespace rt

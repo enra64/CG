@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/opengl.dir/Math.cpp.o"
   "CMakeFiles/opengl.dir/RaytracerWindow.cpp.o"
+  "CMakeFiles/opengl.dir/Math.cpp.o"
   "../../libopengl.pdb"
   "../../libopengl.so"
 )

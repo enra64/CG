@@ -12,12 +12,12 @@
 /home/arne/Documents/Studium/Semester 4/CG/Task1/build/depend/glew-1.10.0/CMakeFiles/glew.dir
 /home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/CMakeFiles/edit_cache.dir
 /home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/CMakeFiles/rebuild_cache.dir
-/home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/example_animals/CMakeFiles/edit_cache.dir
-/home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/example_animals/CMakeFiles/rebuild_cache.dir
-/home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/example_animals/CMakeFiles/example_animals.dir
 /home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/example_hello_world/CMakeFiles/edit_cache.dir
 /home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/example_hello_world/CMakeFiles/rebuild_cache.dir
 /home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/example_hello_world/CMakeFiles/example_hello_world.dir
+/home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/example_animals/CMakeFiles/edit_cache.dir
+/home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/example_animals/CMakeFiles/rebuild_cache.dir
+/home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/example_animals/CMakeFiles/example_animals.dir
 /home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/example_memory_fun/CMakeFiles/rebuild_cache.dir
 /home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/example_memory_fun/CMakeFiles/edit_cache.dir
 /home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/example_memory_fun/CMakeFiles/example_memory_fun.dir

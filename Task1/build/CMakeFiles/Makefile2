@@ -212,8 +212,8 @@ clean: depend/glew-1.10.0/CMakeFiles/glew.dir/clean
 # Directory level rules for directory exercises
 
 # Convenience name for "all" pass in the directory.
-exercises/all: exercises/example_animals/all
 exercises/all: exercises/example_hello_world/all
+exercises/all: exercises/example_animals/all
 exercises/all: exercises/example_memory_fun/all
 exercises/all: exercises/opengl/all
 exercises/all: exercises/raytracer/all
@@ -223,8 +223,8 @@ exercises/all: exercises/raytracer_test/all
 .PHONY : exercises/all
 
 # Convenience name for "clean" pass in the directory.
-exercises/clean: exercises/example_animals/clean
 exercises/clean: exercises/example_hello_world/clean
+exercises/clean: exercises/example_animals/clean
 exercises/clean: exercises/example_memory_fun/clean
 exercises/clean: exercises/opengl/clean
 exercises/clean: exercises/raytracer/clean
@@ -234,8 +234,8 @@ exercises/clean: exercises/raytracer_test/clean
 .PHONY : exercises/clean
 
 # Convenience name for "preinstall" pass in the directory.
-exercises/preinstall: exercises/example_animals/preinstall
 exercises/preinstall: exercises/example_hello_world/preinstall
+exercises/preinstall: exercises/example_animals/preinstall
 exercises/preinstall: exercises/example_memory_fun/preinstall
 exercises/preinstall: exercises/opengl/preinstall
 exercises/preinstall: exercises/raytracer/preinstall
@@ -243,61 +243,6 @@ exercises/preinstall: exercises/raytracer_task1/preinstall
 exercises/preinstall: exercises/raytracer_test/preinstall
 
 .PHONY : exercises/preinstall
-
-#=============================================================================
-# Directory level rules for directory exercises/example_animals
-
-# Convenience name for "all" pass in the directory.
-exercises/example_animals/all: exercises/example_animals/CMakeFiles/example_animals.dir/all
-
-.PHONY : exercises/example_animals/all
-
-# Convenience name for "clean" pass in the directory.
-exercises/example_animals/clean: exercises/example_animals/CMakeFiles/example_animals.dir/clean
-
-.PHONY : exercises/example_animals/clean
-
-# Convenience name for "preinstall" pass in the directory.
-exercises/example_animals/preinstall:
-
-.PHONY : exercises/example_animals/preinstall
-
-#=============================================================================
-# Target rules for target exercises/example_animals/CMakeFiles/example_animals.dir
-
-# All Build rule for target.
-exercises/example_animals/CMakeFiles/example_animals.dir/all:
-	$(MAKE) -f exercises/example_animals/CMakeFiles/example_animals.dir/build.make exercises/example_animals/CMakeFiles/example_animals.dir/depend
-	$(MAKE) -f exercises/example_animals/CMakeFiles/example_animals.dir/build.make exercises/example_animals/CMakeFiles/example_animals.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arne/Documents/Studium/Semester 4/CG/Task1/build/CMakeFiles" --progress-num=1,2 "Built target example_animals"
-.PHONY : exercises/example_animals/CMakeFiles/example_animals.dir/all
-
-# Include target in all.
-all: exercises/example_animals/CMakeFiles/example_animals.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-exercises/example_animals/CMakeFiles/example_animals.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/arne/Documents/Studium/Semester 4/CG/Task1/build/CMakeFiles" 2
-	$(MAKE) -f CMakeFiles/Makefile2 exercises/example_animals/CMakeFiles/example_animals.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/arne/Documents/Studium/Semester 4/CG/Task1/build/CMakeFiles" 0
-.PHONY : exercises/example_animals/CMakeFiles/example_animals.dir/rule
-
-# Convenience name for target.
-example_animals: exercises/example_animals/CMakeFiles/example_animals.dir/rule
-
-.PHONY : example_animals
-
-# clean rule for target.
-exercises/example_animals/CMakeFiles/example_animals.dir/clean:
-	$(MAKE) -f exercises/example_animals/CMakeFiles/example_animals.dir/build.make exercises/example_animals/CMakeFiles/example_animals.dir/clean
-.PHONY : exercises/example_animals/CMakeFiles/example_animals.dir/clean
-
-# clean rule for target.
-clean: exercises/example_animals/CMakeFiles/example_animals.dir/clean
-
-.PHONY : clean
 
 #=============================================================================
 # Directory level rules for directory exercises/example_hello_world
@@ -351,6 +296,61 @@ exercises/example_hello_world/CMakeFiles/example_hello_world.dir/clean:
 
 # clean rule for target.
 clean: exercises/example_hello_world/CMakeFiles/example_hello_world.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory exercises/example_animals
+
+# Convenience name for "all" pass in the directory.
+exercises/example_animals/all: exercises/example_animals/CMakeFiles/example_animals.dir/all
+
+.PHONY : exercises/example_animals/all
+
+# Convenience name for "clean" pass in the directory.
+exercises/example_animals/clean: exercises/example_animals/CMakeFiles/example_animals.dir/clean
+
+.PHONY : exercises/example_animals/clean
+
+# Convenience name for "preinstall" pass in the directory.
+exercises/example_animals/preinstall:
+
+.PHONY : exercises/example_animals/preinstall
+
+#=============================================================================
+# Target rules for target exercises/example_animals/CMakeFiles/example_animals.dir
+
+# All Build rule for target.
+exercises/example_animals/CMakeFiles/example_animals.dir/all:
+	$(MAKE) -f exercises/example_animals/CMakeFiles/example_animals.dir/build.make exercises/example_animals/CMakeFiles/example_animals.dir/depend
+	$(MAKE) -f exercises/example_animals/CMakeFiles/example_animals.dir/build.make exercises/example_animals/CMakeFiles/example_animals.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/arne/Documents/Studium/Semester 4/CG/Task1/build/CMakeFiles" --progress-num=1,2 "Built target example_animals"
+.PHONY : exercises/example_animals/CMakeFiles/example_animals.dir/all
+
+# Include target in all.
+all: exercises/example_animals/CMakeFiles/example_animals.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+exercises/example_animals/CMakeFiles/example_animals.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/arne/Documents/Studium/Semester 4/CG/Task1/build/CMakeFiles" 2
+	$(MAKE) -f CMakeFiles/Makefile2 exercises/example_animals/CMakeFiles/example_animals.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/arne/Documents/Studium/Semester 4/CG/Task1/build/CMakeFiles" 0
+.PHONY : exercises/example_animals/CMakeFiles/example_animals.dir/rule
+
+# Convenience name for target.
+example_animals: exercises/example_animals/CMakeFiles/example_animals.dir/rule
+
+.PHONY : example_animals
+
+# clean rule for target.
+exercises/example_animals/CMakeFiles/example_animals.dir/clean:
+	$(MAKE) -f exercises/example_animals/CMakeFiles/example_animals.dir/build.make exercises/example_animals/CMakeFiles/example_animals.dir/clean
+.PHONY : exercises/example_animals/CMakeFiles/example_animals.dir/clean
+
+# clean rule for target.
+clean: exercises/example_animals/CMakeFiles/example_animals.dir/clean
 
 .PHONY : clean
 

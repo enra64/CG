@@ -57,33 +57,9 @@ include exercises/opengl/CMakeFiles/opengl.dir/progress.make
 # Include the compile flags for this target's objects.
 include exercises/opengl/CMakeFiles/opengl.dir/flags.make
 
-exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o: exercises/opengl/CMakeFiles/opengl.dir/flags.make
-exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o: ../exercises/opengl/Math.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/arne/Documents/Studium/Semester 4/CG/Task1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o"
-	cd "/home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/opengl" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opengl.dir/Math.cpp.o -c "/home/arne/Documents/Studium/Semester 4/CG/Task1/exercises/opengl/Math.cpp"
-
-exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl.dir/Math.cpp.i"
-	cd "/home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/opengl" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/arne/Documents/Studium/Semester 4/CG/Task1/exercises/opengl/Math.cpp" > CMakeFiles/opengl.dir/Math.cpp.i
-
-exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl.dir/Math.cpp.s"
-	cd "/home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/opengl" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/arne/Documents/Studium/Semester 4/CG/Task1/exercises/opengl/Math.cpp" -o CMakeFiles/opengl.dir/Math.cpp.s
-
-exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o.requires:
-
-.PHONY : exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o.requires
-
-exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o.provides: exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o.requires
-	$(MAKE) -f exercises/opengl/CMakeFiles/opengl.dir/build.make exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o.provides.build
-.PHONY : exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o.provides
-
-exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o.provides.build: exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o
-
-
 exercises/opengl/CMakeFiles/opengl.dir/RaytracerWindow.cpp.o: exercises/opengl/CMakeFiles/opengl.dir/flags.make
 exercises/opengl/CMakeFiles/opengl.dir/RaytracerWindow.cpp.o: ../exercises/opengl/RaytracerWindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/arne/Documents/Studium/Semester 4/CG/Task1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object exercises/opengl/CMakeFiles/opengl.dir/RaytracerWindow.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/arne/Documents/Studium/Semester 4/CG/Task1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object exercises/opengl/CMakeFiles/opengl.dir/RaytracerWindow.cpp.o"
 	cd "/home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/opengl" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opengl.dir/RaytracerWindow.cpp.o -c "/home/arne/Documents/Studium/Semester 4/CG/Task1/exercises/opengl/RaytracerWindow.cpp"
 
 exercises/opengl/CMakeFiles/opengl.dir/RaytracerWindow.cpp.i: cmake_force
@@ -105,16 +81,40 @@ exercises/opengl/CMakeFiles/opengl.dir/RaytracerWindow.cpp.o.provides: exercises
 exercises/opengl/CMakeFiles/opengl.dir/RaytracerWindow.cpp.o.provides.build: exercises/opengl/CMakeFiles/opengl.dir/RaytracerWindow.cpp.o
 
 
+exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o: exercises/opengl/CMakeFiles/opengl.dir/flags.make
+exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o: ../exercises/opengl/Math.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/arne/Documents/Studium/Semester 4/CG/Task1/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o"
+	cd "/home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/opengl" && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opengl.dir/Math.cpp.o -c "/home/arne/Documents/Studium/Semester 4/CG/Task1/exercises/opengl/Math.cpp"
+
+exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opengl.dir/Math.cpp.i"
+	cd "/home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/opengl" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/arne/Documents/Studium/Semester 4/CG/Task1/exercises/opengl/Math.cpp" > CMakeFiles/opengl.dir/Math.cpp.i
+
+exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opengl.dir/Math.cpp.s"
+	cd "/home/arne/Documents/Studium/Semester 4/CG/Task1/build/exercises/opengl" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/arne/Documents/Studium/Semester 4/CG/Task1/exercises/opengl/Math.cpp" -o CMakeFiles/opengl.dir/Math.cpp.s
+
+exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o.requires:
+
+.PHONY : exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o.requires
+
+exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o.provides: exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o.requires
+	$(MAKE) -f exercises/opengl/CMakeFiles/opengl.dir/build.make exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o.provides.build
+.PHONY : exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o.provides
+
+exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o.provides.build: exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o
+
+
 # Object files for target opengl
 opengl_OBJECTS = \
-"CMakeFiles/opengl.dir/Math.cpp.o" \
-"CMakeFiles/opengl.dir/RaytracerWindow.cpp.o"
+"CMakeFiles/opengl.dir/RaytracerWindow.cpp.o" \
+"CMakeFiles/opengl.dir/Math.cpp.o"
 
 # External object files for target opengl
 opengl_EXTERNAL_OBJECTS =
 
-libopengl.so: exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o
 libopengl.so: exercises/opengl/CMakeFiles/opengl.dir/RaytracerWindow.cpp.o
+libopengl.so: exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o
 libopengl.so: exercises/opengl/CMakeFiles/opengl.dir/build.make
 libopengl.so: libglew.so
 libopengl.so: libglfw.so
@@ -130,8 +130,8 @@ exercises/opengl/CMakeFiles/opengl.dir/build: libopengl.so
 
 .PHONY : exercises/opengl/CMakeFiles/opengl.dir/build
 
-exercises/opengl/CMakeFiles/opengl.dir/requires: exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o.requires
 exercises/opengl/CMakeFiles/opengl.dir/requires: exercises/opengl/CMakeFiles/opengl.dir/RaytracerWindow.cpp.o.requires
+exercises/opengl/CMakeFiles/opengl.dir/requires: exercises/opengl/CMakeFiles/opengl.dir/Math.cpp.o.requires
 
 .PHONY : exercises/opengl/CMakeFiles/opengl.dir/requires
 

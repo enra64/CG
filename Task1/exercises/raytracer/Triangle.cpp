@@ -23,7 +23,6 @@ Triangle::closestIntersectionModel(const Ray &ray, double maxLambda, RayIntersec
   Vec3d edge1 = mVertices[1] - mVertices[0];
   Vec3d edge2 = mVertices[2] - mVertices[0];
     
-  // 
   Vec3d pVec = cross(ray.direction(), edge2);
   
   // if the determinant is tiny, the ray lies in the triangle plane

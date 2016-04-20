@@ -22,7 +22,7 @@ public:
 
   // Override this method to recompute the bounding box of this object.
   RAYTRACER_EXPORTS BoundingBox computeBoundingBox() const override;
-  
+
   void pointToRayDistance(const Ray &ray, const Vec3d* point, double* lambda, double* distance) const;
 };
 } //namespace rt

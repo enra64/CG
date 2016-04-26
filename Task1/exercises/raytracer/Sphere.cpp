@@ -5,41 +5,48 @@
 
 namespace rt
 {
-// q=point of interest
-void Sphere::pointToRayDistance(const Ray &ray, const Vec3d* q, double* lambda, double* distance) const {
-  // create a vector (u) from ray origin p to point of interest q
-  Vec3d u = *q - ray.origin();
+
+/** \brief calculate distance between ray and point
+ *
+ * @param rayOfInterest The ray of interest
+ * @param pointOfInterest The point we are interested in
+ * @param lambda direction factor to reach the point on the ray nearest to the point of interest
+ * @param distance Distance between ray and point of interest
+ */
+void Sphere::pointToRayDistance(const Ray &rayOfInterest, const Vec3d* pointOfInterest, double* lambda, double* distance) const {
+  // create a vector (u) from ray origin p to point of interest
+  Vec3d u = *pointOfInterest - rayOfInterest.origin();
 
   // calculate lambda - the scalar we need to multiply the ray direction
   // with to reach the point projected on the ray
-  *lambda = dot(u, ray.direction());
+  *lambda = dot(u, rayOfInterest.direction());
   
   // point where the projection hits the ray
-  Vec3d pointOnRay = ray.pointOnRay(*lambda);
+  Vec3d pointOnRay = rayOfInterest.pointOnRay(*lambda);
   
-  // distance between the questioned point and the point on the ray
-  *distance = (*q - pointOnRay).length();
+  // distance between the point of interest and the point on the ray
+  *distance = (*pointOfInterest - pointOnRay).length();
 }
 
 bool
 Sphere::closestIntersectionModel(const Ray &ray, double maxLambda, RayIntersection& intersection) const
 {
-  // prepare output variables
+  // prepare distance calculation parameters
   double lambda;
   double distance;
   
-  // may be changed in the future
+  // im not quite sure whether this may change, so i put it in variables
   double radius = 1;
   Vec3d origin(0, 0, 0);
   
-  // get lambda and distance to origin
+  // calculate ray to origin distance and the associated lambda
   pointToRayDistance(ray, &origin, &lambda, &distance);
   
-  // distance to the sphere is greater than its radius
+  // distance to the sphere is greater than its radius -> no intersection
   if(distance > radius)
     return false;
     
-  // two intersection points, find the earlier one
+  // two intersection points, find the one less distant from the ray origin
   if(1.d - distance > Math::safetyEps()){
     // basically pythagorean theorem:
     // a: radius
@@ -60,7 +67,7 @@ Sphere::closestIntersectionModel(const Ray &ray, double maxLambda, RayIntersecti
   if(lambda>maxLambda)
     return false;
 
-  // create intersection object
+  // create intersection "return" object
   intersection = RayIntersection(ray,shared_from_this(), lambda, ray.pointOnRay(lambda), Vec3d(0, 0, 0));
   return true;
 }

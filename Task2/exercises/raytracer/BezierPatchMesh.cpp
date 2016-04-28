@@ -101,17 +101,22 @@ namespace rt
    * @param u the position of the evaluation
    * @param tangent a tangent to the result created by the last two control points.
    */
-  Vec3d BezierPatchMesh::casteljau(const std::vector<Vec3d>& cntrl, double p, Vec3d& tangent) const{
+  Vec3d BezierPatchMesh::casteljau(std::vector<Vec3d>& tmp, double p, Vec3d& tangent) const{
       // get a copy that we can modify
-      std::vector<Vec3d> tmp(cntrl);
+      //std::vector<Vec3d> tmp(cntrl);
+      size_t currentSize = tmp.size();
+  
       // we need the last two points for the tangent
-      while(tmp.size() > 2){
+      while(currentSize > 2){
         // casteljau step
-        for(size_t i = 0; i < tmp.size() - 1; i++)
+        for(size_t i = 0; i < currentSize; i++)
           tmp[i] = tmp[i] * (1 - p) + tmp[i + 1] * p;
         // the last point is now obsolete
-        tmp.resize(tmp.size() - 1);
+        //tmp.resize(tmp.size() - 1);
+        currentSize--;
+      std::cout << currentSize << std::endl;
       }
+      std::cout << std::endl<< std::endl<< std::endl<< std::endl;
       // calculate tangent
       tangent = tmp[1] - tmp[0];
       // do the last step, this is the interpolation result
@@ -124,7 +129,7 @@ namespace rt
     ret.uv = Vec2d(u,v);
 
     // u and v control points
-    std::vector<Vec3d> uPoints(mM), tmp;
+    std::vector<Vec3d> uPoints(mM);
     std::vector<Vec3d> vPoints(mN);
     
     // the two tangents
@@ -155,6 +160,7 @@ namespace rt
 
       // get the point on the bezier curve for this set of control points
       uPoints[i] = casteljau(vPoints, v, uTangent);
+
     }
 
     // get the actual u tangent, and the calculated position, as this is the final interpolation run

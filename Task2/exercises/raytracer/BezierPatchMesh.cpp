@@ -101,7 +101,7 @@ namespace rt
    * @param u the position of the evaluation
    * @param tangent a tangent to the result created by the last two control points.
    */
-  Vec3d BezierPatchMesh::deCasteljau(const std::vector<Vec3d>& cntrl, double p, Vec3d& tangent) const{
+  Vec3d BezierPatchMesh::casteljau(const std::vector<Vec3d>& cntrl, double p, Vec3d& tangent) const{
       // get a copy that we can modify
       std::vector<Vec3d> tmp(cntrl);
       // we need the last two points for the tangent
@@ -138,11 +138,11 @@ namespace rt
         uPoints[i] = controlPoint(i, j);
 
       // get the point on the bezier curve for this set of control points
-      vPoints[j] = deCasteljau(uPoints, u, vTangent);
+      vPoints[j] = casteljau(uPoints, u, vTangent);
     }
 
     // get the actual v tangent
-    deCasteljau(vPoints, v, vTangent);
+    casteljau(vPoints, v, vTangent);
 
     // multiply by number of control points
     vTangent *= vPoints.size();
@@ -154,11 +154,11 @@ namespace rt
         vPoints[j] = controlPoint(i, j); // i==u, j==v
 
       // get the point on the bezier curve for this set of control points
-      uPoints[i] = deCasteljau(vPoints, v, uTangent);
+      uPoints[i] = casteljau(vPoints, v, uTangent);
     }
 
     // get the actual u tangent, and the calculated position, as this is the final interpolation run
-    ret.position = deCasteljau(uPoints, u, uTangent);
+    ret.position = casteljau(uPoints, u, uTangent);
 
     // multiply tangent by number of control points
     uTangent *= uPoints.size();

@@ -56,7 +56,7 @@ protected:
     RAYTRACER_EXPORTS BoundingBox computeBoundingBox() const override;
 
 private:
-  Vec3d deCasteljau(const std::vector<Vec3d>& cntrl, double u, Vec3d& tangent) const;
+  Vec3d casteljau(const std::vector<Vec3d>& cntrl, double u, Vec3d& tangent) const;
   size_t mM, mN;                    //!< patch control point dimensions
   size_t mResU, mResV;              //!< triangle resolution in both parameter directions
   std::vector<Vec3d> mControlPoints; //!< patch control points

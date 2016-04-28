@@ -101,27 +101,25 @@ namespace rt
    * @param u the position of the evaluation
    * @param tangent a tangent to the result created by the last two control points.
    */
-  Vec3d BezierPatchMesh::casteljau(std::vector<Vec3d>& tmp, double p, Vec3d& tangent) const{
-      // get a copy that we can modify
-      //std::vector<Vec3d> tmp(cntrl);
-      size_t currentSize = tmp.size();
+  Vec3d BezierPatchMesh::casteljau(std::vector<Vec3d>& cntrl, double p, Vec3d& tangent) const{
+      // how many points are left?
+      size_t currentSize = cntrl.size();
   
       // we need the last two points for the tangent
       while(currentSize > 2){
         // casteljau step
         for(size_t i = 0; i < currentSize; i++)
-          tmp[i] = tmp[i] * (1 - p) + tmp[i + 1] * p;
-        // the last point is now obsolete
-        //tmp.resize(tmp.size() - 1);
+          cntrl[i] = cntrl[i] * (1 - p) + cntrl[i + 1] * p;
+        // prepare for next casteljau step with one less point
         currentSize--;
-      std::cout << currentSize << std::endl;
       }
-      std::cout << std::endl<< std::endl<< std::endl<< std::endl;
+
       // calculate tangent
-      tangent = tmp[1] - tmp[0];
+      tangent = cntrl[1] - cntrl[0];
       // do the last step, this is the interpolation result
-      return tmp[0] * (1 - p) + tmp[1] * p;
+      return cntrl[0] * (1 - p) + cntrl[1] * p;
   }
+
 
   BezierPatchMesh::BezierPatchSample BezierPatchMesh::sample(double u, double v) const
   {
@@ -146,28 +144,27 @@ namespace rt
       vPoints[j] = casteljau(uPoints, u, vTangent);
     }
 
-    // get the actual v tangent
+    // get actual v tangent
     casteljau(vPoints, v, vTangent);
 
     // multiply by number of control points
-    vTangent *= vPoints.size();
+    vTangent *= mN;
 
     // second interpolation run (along v)
     for(size_t i = 0; i < mM; i++){
       // get control points for the v axis
       for(size_t j = 0; j < mN; j++)
-        vPoints[j] = controlPoint(i, j); // i==u, j==v
+        vPoints[j] = controlPoint(i, j);
 
       // get the point on the bezier curve for this set of control points
       uPoints[i] = casteljau(vPoints, v, uTangent);
-
     }
 
-    // get the actual u tangent, and the calculated position, as this is the final interpolation run
+    // get actual u tangent, and the final position
     ret.position = casteljau(uPoints, u, uTangent);
 
     // multiply tangent by number of control points
-    uTangent *= uPoints.size();
+    uTangent *= mM;
 
     // the normal is now the normalized cross product between the two tangents
     ret.normal = cross(uTangent, vTangent).normalize();

@@ -1,1 +1,0 @@
-/usr/bin/c++  -fPIC  -fopenmp  -shared -Wl,-soname,libopengl.so -o ../../libopengl.so CMakeFiles/opengl.dir/Math.cpp.o CMakeFiles/opengl.dir/RaytracerWindow.cpp.o  -L"/home/arne/Documents/Studium/Semester 4/CG/Task2/build" -lglew -lglfw -lGLU -lGL ../../libraytracer.so -Wl,-rpath,"/home/arne/Documents/Studium/Semester 4/CG/Task2/build" 

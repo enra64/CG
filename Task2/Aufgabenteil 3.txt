@@ -1,0 +1,11 @@
+Je größer numU und numV sind, desto besser ist die Qualität, desto länger dauert aber auch die Berechnung.
+Die Qualitätsverbesserung wird allerdings irgendwann unsichtbar, den Unterschied zwischen numU=numV=24 und numU=numV=256
+erkennt man z.B. nicht mehr. 
+
+Das Verhalten lässt sich dadurch erklären, das die Werte die Anzahl der Dreiecke, die zum darstellen des Teapots 
+benutzt werden, regulieren. Bis zu einer gewissen Grenze bedeuten mehr Dreiecke rundere Flächen usw; danach erkennt
+man aber keinen Unterschied mehr, allein schon weil die Anzahl der Pixel begrenzt ist. Weniger Dreiecke bedeuten
+dabei aber auch weniger Rechenzeit, denn es müssen weniger Berechnungen durchgeführt werden.
+
+Zum Verbessern der Rechenzeit kann man die Aufgabe parallelisieren (entweder auf der CPU, oder auf der GPU), die
+Anzahl der Dreiecke optimieren, oder den Assemblercode per Hand nachbessern.

@@ -1,0 +1,270 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../depend/GLFW-3.0.4/include/GLFW/glfw3.h
+stddef.h
+-
+OpenGL/gl3.h
+-
+OpenGL/gl.h
+-
+OpenGL/glu.h
+-
+GL/glcorearb.h
+-
+GLES/gl.h
+-
+GLES2/gl2.h
+-
+GLES3/gl3.h
+-
+GL/gl.h
+-
+GL/glu.h
+-
+
+../depend/glew-1.10.0/include/GL/glew.h
+stddef.h
+-
+inttypes.h
+-
+stdint.h
+-
+inttypes.h
+-
+OpenGL/glu.h
+-
+GL/glu.h
+-
+
+../exercises/opengl/Math.hpp
+openglConfig.hpp
+../exercises/opengl/openglConfig.hpp
+cmath
+-
+algorithm
+-
+limits
+-
+raytracer/Math.hpp
+-
+random
+-
+
+../exercises/opengl/OpenGL.hpp
+openglConfig.hpp
+../exercises/opengl/openglConfig.hpp
+GL/glew.h
+-
+GLFW/glfw3.h
+-
+iostream
+-
+string
+-
+memory
+-
+Math.hpp
+../exercises/opengl/Math.hpp
+
+../exercises/raytracer/Image.hpp
+raytracerConfig.hpp
+../exercises/raytracer/raytracerConfig.hpp
+Math.hpp
+../exercises/raytracer/Math.hpp
+vector
+-
+string
+-
+
+../exercises/raytracer/Math.hpp
+raytracerConfig.hpp
+../exercises/raytracer/raytracerConfig.hpp
+cmath
+-
+chrono
+-
+algorithm
+-
+limits
+-
+iostream
+-
+Vector2.hpp
+../exercises/raytracer/Vector2.hpp
+Vector3.hpp
+../exercises/raytracer/Vector3.hpp
+Vector4.hpp
+../exercises/raytracer/Vector4.hpp
+Matrix2.hpp
+../exercises/raytracer/Matrix2.hpp
+Matrix3.hpp
+../exercises/raytracer/Matrix3.hpp
+Matrix4.hpp
+../exercises/raytracer/Matrix4.hpp
+
+../exercises/raytracer/Matrix2.hpp
+std_types.hpp
+../exercises/raytracer/std_types.hpp
+Vector2.hpp
+../exercises/raytracer/Vector2.hpp
+cstring
+-
+
+../exercises/raytracer/Matrix3.hpp
+std_types.hpp
+../exercises/raytracer/std_types.hpp
+Vector3.hpp
+../exercises/raytracer/Vector3.hpp
+Matrix2.hpp
+../exercises/raytracer/Matrix2.hpp
+
+../exercises/raytracer/Matrix4.hpp
+std_types.hpp
+../exercises/raytracer/std_types.hpp
+Vector4.hpp
+../exercises/raytracer/Vector4.hpp
+Matrix3.hpp
+../exercises/raytracer/Matrix3.hpp
+
+../exercises/raytracer/Vector2.hpp
+std_types.hpp
+../exercises/raytracer/std_types.hpp
+cmath
+-
+
+../exercises/raytracer/Vector3.hpp
+std_types.hpp
+../exercises/raytracer/std_types.hpp
+Vector2.hpp
+../exercises/raytracer/Vector2.hpp
+
+../exercises/raytracer/Vector4.hpp
+std_types.hpp
+../exercises/raytracer/std_types.hpp
+Vector3.hpp
+../exercises/raytracer/Vector3.hpp
+
+../exercises/raytracer/raytracerConfig.hpp
+
+../exercises/raytracer/std_types.hpp
+cassert
+-
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/Camera.cpp
+Camera.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/Camera.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/Camera.hpp
+openglConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/openglConfig.hpp
+OpenGL.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/OpenGL.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/IndexedTriangleIO.cpp
+IndexedTriangleIO.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/IndexedTriangleIO.hpp
+fstream
+-
+string
+-
+cstring
+-
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/IndexedTriangleIO.hpp
+openglConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/openglConfig.hpp
+Math.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/Math.hpp
+unordered_map
+-
+vector
+-
+iostream
+-
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/Math.cpp
+Math.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/Math.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/Math.hpp
+openglConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/openglConfig.hpp
+cmath
+-
+algorithm
+-
+limits
+-
+raytracer/Math.hpp
+-
+random
+-
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/OpenGL.hpp
+openglConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/openglConfig.hpp
+GL/glew.h
+-
+GLFW/glfw3.h
+-
+iostream
+-
+string
+-
+memory
+-
+Math.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/Math.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/RaytracerWindow.cpp
+RaytracerWindow.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/RaytracerWindow.hpp
+fstream
+-
+chrono
+-
+thread
+-
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/RaytracerWindow.hpp
+openglConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/openglConfig.hpp
+opengl/OpenGL.hpp
+-
+raytracer/Image.hpp
+-
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/ShaderProgram.cpp
+ShaderProgram.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/ShaderProgram.hpp
+fstream
+-
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/ShaderProgram.hpp
+openglConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/openglConfig.hpp
+OpenGL.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/OpenGL.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/TriangleGeometry.cpp
+TriangleGeometry.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/TriangleGeometry.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/TriangleGeometry.hpp
+openglConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/openglConfig.hpp
+OpenGL.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/OpenGL.hpp
+vector
+-
+memory
+-
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/opengl/openglConfig.hpp
+

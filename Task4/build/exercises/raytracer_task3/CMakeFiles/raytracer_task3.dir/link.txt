@@ -1,0 +1,1 @@
+/usr/bin/c++    -fopenmp    CMakeFiles/raytracer_task3.dir/raytracer_task3.cpp.o  -o ../../raytracer_task3  -L"/run/media/arne/data/Studium/Semester 4/CG/Task4/build" -rdynamic -lglew -lglfw -lGLU -lGL ../../libopengl.so ../../libraytracer.so -lglew -lglfw -lGLU -lGL -Wl,-rpath,"/run/media/arne/data/Studium/Semester 4/CG/Task4/build" 

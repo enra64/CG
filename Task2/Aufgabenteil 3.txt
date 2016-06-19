@@ -2,7 +2,7 @@ Je größer numU und numV sind, desto besser ist die Qualität, desto länger da
 Die Qualitätsverbesserung wird allerdings irgendwann unsichtbar, den Unterschied zwischen numU=numV=24 und numU=numV=256
 erkennt man z.B. nicht mehr. 
 
-Das Verhalten lässt sich dadurch erklären, das die Werte die Anzahl der Dreiecke, die zum darstellen des Teapots 
+Das Verhalten lässt sich dadurch erklären, dass die Werte die Anzahl der Dreiecke, die zum darstellen des Teapots 
 benutzt werden, regulieren. Bis zu einer gewissen Grenze bedeuten mehr Dreiecke rundere Flächen usw; danach erkennt
 man aber keinen Unterschied mehr, allein schon weil die Anzahl der Pixel begrenzt ist. Weniger Dreiecke bedeuten
 dabei aber auch weniger Rechenzeit, denn es müssen weniger Berechnungen durchgeführt werden.

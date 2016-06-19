@@ -12,8 +12,11 @@ PhongMaterial::PhongMaterial(const Vec3d& color, double reflectance, double shin
 
 }
 
+#define SPECULAR_REFLECTION_DEGREE 0.04
+
 // use phong shading model
-Vec4d PhongMaterial::shade(const RayIntersection& intersection,
+Vec4d PhongMaterial::shade(
+  const RayIntersection& intersection,
   const Light& light) const 
 {
   // calculate diffuse part of the equation
@@ -24,7 +27,7 @@ Vec4d PhongMaterial::shade(const RayIntersection& intersection,
   Vec3d viewDirection = intersection.ray().direction();
   Vec3d reflection = reflect(lightDirection, intersection.normal());
   Vec3d lightcolor = light.spectralIntensity() / 255;
-  Vec3d specular = reflectance() * ((mShininess + 2) / (2 * M_PI)) * pow(std::max(dot(reflection, viewDirection), 0.d), mShininess) * lightcolor;
+  Vec3d specular = ((mShininess + 2) / (2 * M_PI)) * SPECULAR_REFLECTION_DEGREE * pow(std::max(dot(reflection, viewDirection), 0.d), mShininess) * lightcolor;
   
   // calculcate sum -> result
   return Vec4d(diffuse + specular, 1);

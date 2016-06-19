@@ -1,0 +1,452 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/BVHIndexedTriangleMesh.cpp
+BVHIndexedTriangleMesh.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/BVHIndexedTriangleMesh.hpp
+BVTree.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/BVTree.hpp
+Intersection.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Intersection.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/BVHIndexedTriangleMesh.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+IndexedTriangleMesh.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/IndexedTriangleMesh.hpp
+BVTree.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/BVTree.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/BVTree.cpp
+BVTree.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/BVTree.hpp
+omp.h
+-
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/BVTree.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+vector
+-
+stack
+-
+Math.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Math.hpp
+BoundingBox.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/BoundingBox.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/BezierPatchMesh.cpp
+BezierPatchMesh.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/BezierPatchMesh.hpp
+functional
+-
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/BezierPatchMesh.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+BVHIndexedTriangleMesh.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/BVHIndexedTriangleMesh.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/BoundingBox.cpp
+BoundingBox.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/BoundingBox.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/BoundingBox.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+Math.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Math.hpp
+Ray.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Ray.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Camera.cpp
+Camera.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Camera.hpp
+Math.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Math.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Camera.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+Ray.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Ray.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/CheckerMaterial.cpp
+CheckerMaterial.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/CheckerMaterial.hpp
+Intersection.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Intersection.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/CheckerMaterial.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+Material.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Material.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/ConstantMaterial.cpp
+ConstantMaterial.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/ConstantMaterial.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/ConstantMaterial.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+Material.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Material.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/DiffuseMaterial.cpp
+DiffuseMaterial.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/DiffuseMaterial.hpp
+Light.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Light.hpp
+Math.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Math.hpp
+Ray.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Ray.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/DiffuseMaterial.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+Material.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Material.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Image.cpp
+Image.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Image.hpp
+Math.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Math.hpp
+fstream
+-
+iostream
+-
+string
+-
+algorithm
+-
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Image.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+Math.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Math.hpp
+vector
+-
+string
+-
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/IndexedTriangleIO.cpp
+IndexedTriangleIO.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/IndexedTriangleIO.hpp
+fstream
+-
+string
+-
+cstring
+-
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/IndexedTriangleIO.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+Math.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Math.hpp
+map
+-
+vector
+-
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/IndexedTriangleMesh.cpp
+IndexedTriangleMesh.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/IndexedTriangleMesh.hpp
+IndexedTriangleIO.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/IndexedTriangleIO.hpp
+Intersection.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Intersection.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/IndexedTriangleMesh.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+Renderable.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Renderable.hpp
+Ray.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Ray.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Intersection.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+Math.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Math.hpp
+Ray.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Ray.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Light.cpp
+Light.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Light.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Light.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+Math.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Math.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Material.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+Math.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Math.hpp
+memory
+-
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Math.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+cmath
+-
+chrono
+-
+algorithm
+-
+limits
+-
+iostream
+-
+Vector2.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Vector2.hpp
+Vector3.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Vector3.hpp
+Vector4.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Vector4.hpp
+Matrix2.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Matrix2.hpp
+Matrix3.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Matrix3.hpp
+Matrix4.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Matrix4.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Matrix2.hpp
+std_types.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/std_types.hpp
+Vector2.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Vector2.hpp
+cstring
+-
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Matrix3.hpp
+std_types.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/std_types.hpp
+Vector3.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Vector3.hpp
+Matrix2.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Matrix2.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Matrix4.hpp
+std_types.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/std_types.hpp
+Vector4.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Vector4.hpp
+Matrix3.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Matrix3.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/PerspectiveCamera.cpp
+PerspectiveCamera.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/PerspectiveCamera.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/PerspectiveCamera.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+Camera.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Camera.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/PhongMaterial.cpp
+PhongMaterial.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/PhongMaterial.hpp
+Light.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Light.hpp
+Math.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Math.hpp
+Ray.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Ray.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/PhongMaterial.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+Material.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Material.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Plane.cpp
+Plane.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Plane.hpp
+Ray.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Ray.hpp
+Math.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Math.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Plane.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+memory
+-
+Renderable.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Renderable.hpp
+Ray.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Ray.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Ray.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+memory
+-
+Math.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Math.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Raytracer.cpp
+Raytracer.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Raytracer.hpp
+Scene.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Scene.hpp
+Image.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Image.hpp
+Camera.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Camera.hpp
+Light.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Light.hpp
+Renderable.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Renderable.hpp
+Material.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Material.hpp
+Math.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Math.hpp
+Image.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Image.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Raytracer.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+vector
+-
+string
+-
+memory
+-
+Math.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Math.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Renderable.cpp
+Renderable.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Renderable.hpp
+Ray.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Ray.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Renderable.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+memory
+-
+vector
+-
+BoundingBox.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/BoundingBox.hpp
+Math.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Math.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Scene.cpp
+Scene.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Scene.hpp
+Camera.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Camera.hpp
+Image.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Image.hpp
+algorithm
+-
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Scene.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+memory
+-
+vector
+-
+Math.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Math.hpp
+Renderable.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Renderable.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Sphere.cpp
+Sphere.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Sphere.hpp
+Ray.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Ray.hpp
+memory
+-
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Sphere.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+Renderable.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Renderable.hpp
+Ray.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Ray.hpp
+Material.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Material.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Triangle.cpp
+Triangle.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Triangle.hpp
+Ray.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Ray.hpp
+memory
+-
+Intersection.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Intersection.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Triangle.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+Renderable.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Renderable.hpp
+Ray.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Ray.hpp
+Material.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Material.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/TriangleMesh.cpp
+TriangleMesh.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/TriangleMesh.hpp
+Intersection.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Intersection.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/TriangleMesh.hpp
+raytracerConfig.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+Renderable.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Renderable.hpp
+Triangle.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Triangle.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Vector2.hpp
+std_types.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/std_types.hpp
+cmath
+-
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Vector3.hpp
+std_types.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/std_types.hpp
+Vector2.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Vector2.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Vector4.hpp
+std_types.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/std_types.hpp
+Vector3.hpp
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/Vector3.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/raytracerConfig.hpp
+
+/run/media/arne/data/Studium/Semester 4/CG/Task4/exercises/raytracer/std_types.hpp
+cassert
+-
+

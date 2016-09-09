@@ -1,1 +1,0 @@
-/usr/bin/c++    -fopenmp    CMakeFiles/opengl_task4.dir/opengl_task4.cpp.o  -o ../../opengl_task4  -L"/run/media/arne/data/Studium/Semester 4/CG/Task4/build" -rdynamic -lglew -lglfw -lGLU -lGL ../../libopengl.so -lglew -lglfw -lGLU -lGL ../../libraytracer.so -Wl,-rpath,"/run/media/arne/data/Studium/Semester 4/CG/Task4/build" 

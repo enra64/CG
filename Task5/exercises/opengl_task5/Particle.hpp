@@ -42,9 +42,9 @@ public:
     double force;
     
     if(withinRadius){
-      force = 10 / (distance - radius);
+      force = 1000 / (distance - radius);
     } else {
-      force = 1 / (radius - distance);
+      force = 100 / (radius - distance);
     }
     
     Vec3f forceVector = distVector * force;
